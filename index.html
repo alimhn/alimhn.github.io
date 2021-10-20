@@ -71,7 +71,6 @@
 
         <video autoplay muted loop id="myVideo">
           <source src="/static/pages/images/video-bg.webm" type="video/webm">
-
           <source src="/static/pages/images/video-bg.mp4" type="video/mp4">
         </video>
 
@@ -438,10 +437,10 @@
 <div class="row" style="overflow-x: auto;">
     <strong>Network architecture:</strong>
     <ul>
-        <li><p class="mb-0"><strong>Input:</strong> 3D LIDAR pointcloud.</p></li>
-        <li><p class="mb-0"><strong>Feature encoding:</strong> Network to encode a 3D pointcloud into a pseudo-image in order to be processed with 2D CNN network in a fast and GPU compatible manner.</p></li>
-        <li><p class="mb-0"><strong>Backbone network:</strong> CNN network to extract features from pseudo-image.</p></li>
-        <li><p class="mb-0"><strong>Detection Head:</strong> Network to predict 3D bounding boxes with heading and with classification labels.</p></li>
+        <li><p class="mb-0" style="padding-bottom:2vh;"><strong class="pb-0">Input:</strong> 3D LIDAR pointcloud.</p></li>
+        <li><p class="mb-0" style="padding-bottom:2vh;"><strong class="pb-0">Feature encoding:</strong> Network to encode a 3D pointcloud into a pseudo-image in order to be processed with 2D CNN network in a fast and GPU compatible manner.</p></li>
+        <li><p class="mb-0" style="padding-bottom:2vh;"><strong class="pb-0">Backbone network:</strong> CNN network to extract features from pseudo-image.</p></li>
+        <li><p class="mb-0" style="padding-bottom:2vh;"><strong class="pb-0">Detection Head:</strong> Network to predict 3D bounding boxes with heading and with classification labels.</p></li>
     </ul>
 
     <div class="col-sm-12">
@@ -470,7 +469,7 @@
                                                     
 <div class="row">
     <div class="col-sm-12">
-        <h5>This demonstration employs the network which exclusively recognize only objects belong to 'car' class.</h5>
+        <h5>This demonstration employs the network which exclusively recognizes only objects belong to 'car' class.</h5>
         <p class="bold-centered-text border-bottom border-danger">MODIFICATION</p>
         <p>In this experiment the modification is reached by feeding spatiotemporal clusters of dynamic objects as input to the algorithm instead of raw pointcloud data.</p>
         <div class="row">
